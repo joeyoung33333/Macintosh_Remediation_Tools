@@ -19,13 +19,16 @@ The tools class was created as a general tool for checking Operating Systems, Fi
 Extra functions to help with organizations/presentation of data. These including importing, parsing, exporting, and displaying data functions. There is an additional delay function to help with time zone differences.
 
 #### interface.py
+
+
+
 #### run_multi.py
 
-
+run_multi.py runs any number of hostnames from an imported text file. The program parses based on "\n" and ony accepts text files like .txt or .tsv. Run the program main() and it will first ask you to import a file name, and input the column number starting with 0. It then parses the file and creates a list of hostname objects to be run into the tools class. The host objects will be iterated and have the given command ran on them. The progam will keep track of successful, failed, and other records. At the end of the program, it will export and print the results. 
 
 #### run_single.py
 
-
+run_single.py contatins functions calling each of the tool class function. It first converts the hostname into an object, then runs the given command. This was created to give the interface program an easy one call function. Every tool duplicated within the class_tools.py will also need to be duplicated here.
 
 #### results.txt
 
