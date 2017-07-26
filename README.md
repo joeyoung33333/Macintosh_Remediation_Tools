@@ -20,7 +20,7 @@ Extra functions to help with organizations/presentation of data. These including
 
 #### interface.py
 
-
+Using the Tkinter library, I created the GUI for this application. The interface runs using the run_single.py and class_tools.py. This application was intended to be used by Tehcnicians to remotely trigger, install, or patch software to a user's computer. When the inteface is runing, type in a hostname or multiple serpated by a ",", check mark the process(es) you would like to run, then select run program. To exit the program, select the Exit Program Button. Note: when adding extra functions in the tools class, you will need to add CheckButtons and descion structures to the run function. 
 
 #### run_multi.py
 
