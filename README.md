@@ -10,19 +10,29 @@ The program automates the process of creating a command, opening a terminal prom
 
 # Files
 
-#### class_complaince.py
-
-The compliance class was created as a general complaince tool for checking Operating Systems, FireWall, FileVault, and many other things. Using pexpect, the class generate a command for each of the functions. The class has been organized into functions 
-
 #### class_tools.py
 
-The tools class was created with the same framework as the complaince class but uses different password, timers and types of functions. The tools class was created to organize company tools that would allow me to install security software, push patches, and trigger packages.
+The tools class was created as a general tool for checking Operating Systems, FireWall, FileVault, Pinging and many other things. For differnt outputs I reccomend creating different classes for the OS, FireWall, and FileVault so it can return On or OFF. Using pexpect, the class generates a command for each of the functions. The class has been organized into functions. By editing the tools class and creating new classes you can remotely install security software, push patches, and trigger packages.
 
 #### func_features.py
+
+Extra functions to help with organizations/presentation of data. These including importing, parsing, exporting, and displaying data functions. There is an additional delay function to help with time zone differences.
+
 #### interface.py
 #### run_multi.py
+
+
+
 #### run_single.py
+
+
+
 #### results.txt
+
+The results.txt file will be exported as a result of the export function. This file has the succcessfuly, failed, and other data for the given commands that were ran. Be sure to save the file in another location/name becuase the program write over the file.
+
 #### import.txt
+
+Import is a arbitrary name given to a file that you will import. This file will only be used when running the run_multi.txt. The python console will ask you to input a file name. Make sure this is a text file like a .txt or .tsv. 
 
 
